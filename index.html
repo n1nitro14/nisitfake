@@ -3,14 +3,32 @@
 <head>
   <meta name="theme-color" content="#00675">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-  <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1410892431590953013/1419151599682584707/IMG_2123.png?ex=68d0b76b&is=68cf65eb&hm=c9ffff1efb7089110ce734d8748e58e7f84f285b4e4893023a233664f2d07818&" />
+  <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1410892431590953013/1419151599682584707/IMG_2123.png?ex=68d0b76b&is=68cf65eb&hm=c9ffff1efb7089110ce734d8748e58e7f84f285b4e4893023a233664f2d07818&">
+<link rel="icon" type="image/png" href="https://ai.openuncen.com/static/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/svg+xml" href="https://ai.openuncen.com/static/favicon.svg">
+<link rel="shortcut icon" href="https://ai.openuncen.com/static/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="https://ai.openuncen.com/static/apple-touch-icon.png">
   <meta charset="UTF-8">
   <title>NisitKU</title>
   <link rel="stylesheet" href="stlye.css">
   <style>
   @font-face {
   font-family: kufont; /* set name */
-  src: url(DB Ozone X Bd v3.ttf); /* url of the font */
+  src: url(kubd.ttf); 
+  
+
+}
+@font-face {
+  font-family: ku2font; /* set name */
+  src: url(kumed.ttf); 
+  
+
+}
+@font-face {
+  font-family: ku3font; /* set name */
+  src: url(kuli.ttf); 
+  
+
 }
     body {
       margin: 0;
@@ -19,7 +37,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background: url('https://cdn.discordapp.com/attachments/1410892431590953013/1419685282315505755/image0.jpg?ex=68d2a873&is=68d156f3&hm=5a244b73735d7b29c505fd3a37b8b425b4460fd773b523e3c7721640e10f1cd4&') no-repeat center center/cover;
+      background: url('https://cdn.discordapp.com/attachments/1410892431590953013/1419760368833794150/4_20250923020027.png?ex=68d2ee61&is=68d19ce1&hm=27d4a83f9209f7e1a566867cb6b6954be29dd9d8548609b5bd2a51589160e41d&') no-repeat center center/cover;
       font-family: sans-serif;
       background-repeat: no-repeat; /* ไม่ให้รูปภาพซ้ำ */
       background-attachment: fixed; /* ทำให้พื้นหลังไม่เลื่อนตามการเลื่อนหน้า */
@@ -83,14 +101,84 @@
   left: 170px;
   font-size: 28px;
 }
+.name {
+  text-align: left;
+  font-family: kufont;
+  line-height: 24px;
+  position: absolute;
+  top: 160px;
+  left: 171px;
+  font-size: 26px;
+}
+.name2 {
+  text-align: left;
+  font-family: ku2font;
+  line-height: 23.5px;
+  position: absolute;
+  top: 220px;
+  left: 171px;
+  font-size: 26px;
+}
+.kana {
+  text-align: left;
+  font-family: kufont;
+  line-height: 22.5px;
+  position: absolute;
+  top: 280px;
+  left: 171px;
+  font-size: 26px;
+}
+.profile {
+  position: absolute;
+  top: 155px;
+  right: 217.7px;
+  max-width: 135px;
+}
+.toppf {
+  color: white;
+  font-size: 26px;
+  font-family: ku3font;
+  /* เป็นคอนเทนเนอร์หลักที่ใช้ Flexbox */
+  position: absolute;
+  top: 11px;
+  right: 35px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.toppff {
+  /* ใช้ Flexbox เพื่อจัดเรียงรูปภาพและชื่อ */
+  display: flex;
+  align-items: center;
+  
+  /* นี่คือส่วนสำคัญ: ป้องกันไม่ให้คอนเทนเนอร์นี้ถูกย่อขนาด */
+  flex-shrink: 0;
+}
+
+.toppff img {
+  width: 28px;
+  height: 28px;
+  top: 30px;
+  border-radius: 50%;
+  margin-right: 7px;
+  /* เว้นระยะห่างระหว่างรูปภาพกับชื่อ */
+}
   </style>
 </head>
 <body>
+  
   <div class="flip-card" id="card">
     <div class="flip-card-inner">
       <div class="flip-card-front">
-        <img src="https://cdn.discordapp.com/attachments/1410892431590953013/1419684461435686984/image0.jpg?ex=68d2a7b0&is=68d15630&hm=6c875df5f7a107a64df269cadd9343e4a3daa897e90556788c26abb2c7aa3009&" alt="Front Image">
-        <div class="idcard">ID 6830156050</div>
+        <img src="https://cdn.discordapp.com/attachments/1410892431590953013/1419762742725967953/6_20250923021007.jpg?ex=68d2f097&is=68d19f17&hm=5d7ed1f193c2fcabb3be8c48f7a8874cc34b7372a762f08868ea2ec841b0a607&" alt="Front Image">
+        <div class="profile">
+          <img src="https://cdn.discordapp.com/attachments/1410892431590953013/1419679442397036565/IMG_1617.jpg?ex=68d2a303&is=68d15183&hm=2652cda42baf4532ac08e81ad8b736770253b8bee9b9deff69a501fba3c662eb&" alt="">
+        </div>
+        <div class="idcard">ID 6830156840</div>
+        <div class="name">อภิวิชญ์<br>นิตย์ประเสริฐ</div>
+        
+        <div class="name2">Apiwit<br>Nitprasert</div>
+        <div class="kana">Management<br>Sciences</div>
         
       </div>
       <div class="flip-card-back">
@@ -98,6 +186,13 @@
       </div>
     </div>
   </div>
+  <div class="toppf">
+    <div class="toppff">
+<img src="https://cdn.discordapp.com/attachments/1410892431590953013/1419757455113457714/image0.jpg?ex=68d2ebab&is=68d19a2b&hm=a05da3a365c26c761b7a39c3a01c91bc8a9da8422f9ff150815e2a6c37e2dc9a&" width="30px" height="30px" alt="Profile y">
+        <img src="https://cdn.discordapp.com/attachments/1410892431590953013/1419679442397036565/IMG_1617.jpg?ex=68d2a303&is=68d15183&hm=2652cda42baf4532ac08e81ad8b736770253b8bee9b9deff69a501fba3c662eb&" alt="Profile Picture">
+        <span class="user-name">Apiwit</span>
+    </div>
+</div>
 
   <script>
     const card = document.getElementById('card');
